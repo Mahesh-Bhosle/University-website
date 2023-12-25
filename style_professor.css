@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(232, 185, 247);
+    padding: 10px 10px;
+    align-items: center;
+}
+li,a,button{
+    
+   color: black;
+   display: inline-block;
+   padding: opx 10px;
+   font-size: 18px;
+   
+   text-decoration: none;
+}
+
+.navbar{
+    display: inline-block;
+    list-style-type: none;
+
+}
+.navbar a:hover{
+    background-color: rgb(232, 253, 255);
+    
+}
+.navbar a{
+    padding: 0px 10px;
+
+}
+
+button{
+    display: inline-block;
+    padding: 5px;
+    border-radius: 50px;
+    background-color: azure;
+}
+button:hover{
+    background-color: cornflowerblue;
+}
+.welcome{
+    padding: 20px;
+    background-color: rgb(252, 216, 186);
+
+}
+.welcome h1{
+    text-align: center;
+}
+
+.content{
+  
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+
+    
+}
+.base_info{
+    flex-basis: 50%;   
+    min-width: 300px;
+   
+}
+.base_info h3{
+    text-align: center;
+    
+}
+textarea{
+    font-size: 20px;
+}
+.pic{
+    max-width: 100%;
+    padding: 50px 0px;
+}
+
+.class{
+    padding: 50px;
+    padding-left: 130px;
+}
+.class table{
+    font-size: 20px;
+    height: 300px;
+}
+.class td,th{
+    padding: 10px;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+}
